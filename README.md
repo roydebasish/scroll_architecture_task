@@ -53,8 +53,8 @@ CustomScrollView
 ├── SliverAppBar (collapsible header)
 ├── SliverPersistentHeader (sticky TabBar)
 └── SliverToBoxAdapter
-└── PageView (horizontal tabs)
-└── GridView (non-scrollable)
+    └── PageView (horizontal tabs)
+        └── GridView (non-scrollable)
 
 Important rule:
 There is exactly ONE vertical scrollable → CustomScrollView.
