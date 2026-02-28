@@ -49,12 +49,12 @@ The entire screen is built using a Sliver-based layout.
 
 Structure:
 
-CustomScrollView
-├── SliverAppBar (collapsible header)
-├── SliverPersistentHeader (sticky TabBar)
-└── SliverToBoxAdapter
-    └── PageView (horizontal tabs)
-        └── GridView (non-scrollable)
+* CustomScrollView
+* SliverAppBar (collapsible header)
+* SliverPersistentHeader (sticky TabBar)
+* SliverToBoxAdapter
+* PageView (horizontal tabs)
+* GridView (non-scrollable)
 
 Important rule:
 There is exactly ONE vertical scrollable → CustomScrollView.
@@ -181,13 +181,18 @@ Login and profile are handled via simple API calls and token storage.
 
 ---
 
+Perfect! I can rewrite your **exact given text** so it’s fully correct and GitHub-ready, with the bash block properly closed and all headings/sections intact. Here’s the fixed version:
+
+
 # How to Run
 
 1. Clone the repository
 2. Run:
 
+```bash
 flutter pub get
 flutter run
+````
 
 Ensure internet connection is available.
 
